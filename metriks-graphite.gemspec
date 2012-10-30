@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
   s.name              = 'metriks-graphite'
-  s.version           = '0.9'
-  s.date              = '2012-07-02'
+  s.version           = '1.0.0'
+  s.date              = '2012-10-29'
 
   ## Make sure your summary is short. The description may be as long
   ## as you like.
@@ -52,43 +52,15 @@ Gem::Specification.new do |s|
   # = MANIFEST =
   s.files = %w[
     Gemfile
+    Gemfile.lock
     LICENSE
     README.md
     Rakefile
-    benchmark/samplers.rb
-    lib/metriks.rb
-    lib/metriks/counter.rb
-    lib/metriks/ewma.rb
-    lib/metriks/exponentially_decaying_sample.rb
-    lib/metriks/histogram.rb
-    lib/metriks/meter.rb
-    lib/metriks/registry.rb
+    lib/metriks-graphite.rb
     lib/metriks/reporter/graphite.rb
-    lib/metriks/reporter/librato_metrics.rb
-    lib/metriks/reporter/logger.rb
-    lib/metriks/reporter/proc_title.rb
-    lib/metriks/reporter/riemann.rb
-    lib/metriks/simple_moving_average.rb
-    lib/metriks/snapshot.rb
-    lib/metriks/time_tracker.rb
-    lib/metriks/timer.rb
-    lib/metriks/uniform_sample.rb
-    lib/metriks/utilization_timer.rb
-    metriks.gemspec
-    test/counter_test.rb
+    metriks-graphite.gemspec
     test/graphite_reporter_test.rb
-    test/histogram_test.rb
-    test/librato_metrics_reporter_test.rb
-    test/logger_reporter_test.rb
-    test/meter_test.rb
-    test/metriks_test.rb
-    test/proc_title_reporter_test.rb
-    test/registry_test.rb
-    test/riemann_reporter_test.rb
     test/test_helper.rb
-    test/thread_error_handling_tests.rb
-    test/timer_test.rb
-    test/utilization_timer_test.rb
   ]
   # = MANIFEST =
 
